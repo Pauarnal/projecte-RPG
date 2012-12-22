@@ -1,0 +1,75 @@
+{ "height":3,
+ "layers":[
+        {
+         "data":[17, 18, 19, 25, 26, 27, 33, 34, 35],
+         "height":3,
+         "name":"terra",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":3,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "height":3,
+         "name":"objects",
+         "objects":[
+                {
+                 "height":0,
+                 "name":"inicial",
+                 "properties":
+                    {
+
+                    },
+                 "type":"camera_focus",
+                 "width":0,
+                 "x":60,
+                 "y":60
+                }, 
+                {
+                 "height":0,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "type":"",
+                 "width":0,
+                 "x":90,
+                 "y":76
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "width":3,
+         "x":0,
+         "y":0
+        }],
+ "orientation":"orthogonal",
+ "properties":
+    {
+
+    },
+ "tileheight":40,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "image":"tile_bosque.png",
+         "imageheight":1000,
+         "imagewidth":320,
+         "margin":0,
+         "name":"tile_bosque",
+         "properties":
+            {
+
+            },
+         "spacing":0,
+         "tileheight":40,
+         "tilewidth":40,
+         "transparentcolor":"#ff00ff"
+        }],
+ "tilewidth":40,
+ "version":1,
+ "width":3
+}

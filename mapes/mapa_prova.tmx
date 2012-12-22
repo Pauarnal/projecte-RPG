@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="3" height="3" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="tile_bosque" tilewidth="40" tileheight="40">
+  <image source="tile_bosque.png" trans="ff00ff" width="320" height="1000"/>
+ </tileset>
+ <layer name="terra" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJwTZGBgEAJiYSCWBGIpIJYGYkUgVgJiZSAGABAUAOs=
+  </data>
+ </layer>
+ <objectgroup name="objects" width="3" height="3">
+  <object name="inicial" type="camera_focus" x="60" y="60"/>
+  <object x="90" y="76"/>
+ </objectgroup>
+</map>
